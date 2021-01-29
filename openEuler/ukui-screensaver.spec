@@ -1,3 +1,4 @@
+%define debug_package %{nil}
 Name:           ukui-screensaver
 Version:        3.0.1
 Release:        4
