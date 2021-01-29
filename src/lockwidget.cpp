@@ -187,7 +187,7 @@ void LockWidget::showPowerManager()
         authDialog->show();
         powermanager->hide();
     }
-    else{     
+    else{
         authDialog->hide();
         powermanager->show();
         powermanager->setGeometry((width()-ITEM_WIDTH*5)/2,
@@ -227,7 +227,7 @@ void LockWidget::initUserMenu()
 * qt5.6上，qmenu文字以图标左方为起点，20.04上文字以图标右方为起点，所以
 * qt5.6时，左边距要设置大一点,避免与图标重合
 */
-#if (QT_VERSION >= QT_VERSION_CHECK(5, 7, 0))
+#if (QT_VERSION >= QT_VERSION_CHECK(5, 12, 0))
         usersMenu->setStyleSheet("QMenu::item{padding: 2px 10px 2px 10px;}");
 #else
         usersMenu->setStyleSheet("QMenu::item{padding: 2px 10px 2px 30px;}");
