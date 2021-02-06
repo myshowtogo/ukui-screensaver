@@ -62,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Fri Jan 29 2021 lvhan <lvhan@kylinos.cn> - 3.0.1-4
-- update to upstream version 3.0.0-1
+- update to upstream version 3.0.1-1
 
 * Wed Jan 13 2021 lvhan <lvhan@kylinos.cn> - 3.0.1-3
 - 0002-fix-ukui-screensaver-dialog-lock.patch
